@@ -1,0 +1,71 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Loaded resources.
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x157524B8>}
+Traceback (most recent call last):
+  File "C:\Panda3D-1.9.0\direct\showbase\EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "C:\Panda3D-1.9.0\direct\showbase\EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "C:\Panda3D-1.9.0\direct\showbase\EventManager.py", line 122, in processEvent
+    messenger.send(eventName, paramList)
+  File "C:\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "C:\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "C:\Panda3D-1.9.0\direct\gui\DirectButton.py", line 103, in commandFunc
+    apply(self['command'], self['extraArgs'])
+  File "C:\Panda3D-1.9.0\direct\gui\DirectDialog.py", line 175, in <lambda>
+    command = lambda s = self, v = value: s.buttonCommand(v)
+  File "C:\Panda3D-1.9.0\direct\gui\DirectDialog.py", line 324, in buttonCommand
+    self['command'](value, *self['extraArgs'])
+  File "otp\otpgui\OTPDialog.py", line 110, in handleButton
+    messenger.send(self.__doneEvent)
+  File "C:\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "C:\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\login\AvatarChoice.py", line 202, in __handleVerifyDelete
+    self.verifyDeleteWithPassword()
+  File "toontown\login\AvatarChoice.py", line 206, in verifyDeleteWithPassword
+    if tt.supportsAuthenticateDelete() and base.cr.productName not in ['DisneyOnline-UK',
+AttributeError: LoginTTIAccount instance has no attribute 'supportsAuthenticateDelete'
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "C:\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "C:\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.9.0\direct\showbase\EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "C:\Panda3D-1.9.0\direct\showbase\EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "C:\Panda3D-1.9.0\direct\showbase\EventManager.py", line 122, in processEvent
+    messenger.send(eventName, paramList)
+  File "C:\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "C:\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "C:\Panda3D-1.9.0\direct\gui\DirectButton.py", line 103, in commandFunc
+    apply(self['command'], self['extraArgs'])
+  File "C:\Panda3D-1.9.0\direct\gui\DirectDialog.py", line 175, in <lambda>
+    command = lambda s = self, v = value: s.buttonCommand(v)
+  File "C:\Panda3D-1.9.0\direct\gui\DirectDialog.py", line 324, in buttonCommand
+    self['command'](value, *self['extraArgs'])
+  File "otp\otpgui\OTPDialog.py", line 110, in handleButton
+    messenger.send(self.__doneEvent)
+  File "C:\Panda3D-1.9.0\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "C:\Panda3D-1.9.0\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown\login\AvatarChoice.py", line 202, in __handleVerifyDelete
+    self.verifyDeleteWithPassword()
+  File "toontown\login\AvatarChoice.py", line 206, in verifyDeleteWithPassword
+    if tt.supportsAuthenticateDelete() and base.cr.productName not in ['DisneyOnline-UK',
+AttributeError: LoginTTIAccount instance has no attribute 'supportsAuthenticateDelete'

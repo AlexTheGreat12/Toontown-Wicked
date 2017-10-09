@@ -1,0 +1,25 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Loaded resources.
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x15292328>}
+__handleAvatarChooserDone: 100000001, 'Weaselbumble', ('lll', 'ss', 'm', 'm', 17, 0, 17, 17, 17, 8, 0, 8, 1, 18), 0
+0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_GS.pdna
+Reading DNA file... phase_6/dna/storage_GS_sz.pdna
+Reading DNA file... phase_6/dna/goofy_speedway_sz.pdna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_5.5/dna/storage_estate.pdna
+Reading DNA file... phase_5.5/dna/estate_1.pdna
+phoneGuiDone

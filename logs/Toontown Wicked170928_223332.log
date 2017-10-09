@@ -1,0 +1,49 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Loaded resources.
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x157523A0>}
+MakeAToon: No exitGenderTrack
+MakeAToon: No hostTrack
+Traceback (most recent call last):
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1941, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1830, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown\distributed\ToontownClientRepository.py", line 885, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown\distributed\ToontownClientRepository.py", line 356, in handleAvatarResponseMsg
+    self.sendGetFriendsListRequest()
+  File "toontown\distributed\ToontownClientRepository.py", line 780, in sendGetFriendsListRequest
+    self.ttiFriendsManager.d_requestFriendsList()
+AttributeError: 'ToontownClientRepository' object has no attribute 'ttiFriendsManager'
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "C:\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "C:\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1941, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1830, in handleMessageType
+    self.handleGenerateWithRequiredOtherOwner(di)
+  File "toontown\distributed\ToontownClientRepository.py", line 885, in handleGenerateWithRequiredOtherOwner
+    self.handleAvatarResponseMsg(doId, di)
+  File "toontown\distributed\ToontownClientRepository.py", line 356, in handleAvatarResponseMsg
+    self.sendGetFriendsListRequest()
+  File "toontown\distributed\ToontownClientRepository.py", line 780, in sendGetFriendsListRequest
+    self.ttiFriendsManager.d_requestFriendsList()
+AttributeError: 'ToontownClientRepository' object has no attribute 'ttiFriendsManager'

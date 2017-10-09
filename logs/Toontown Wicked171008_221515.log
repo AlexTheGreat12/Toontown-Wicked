@@ -1,0 +1,87 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Loaded resources.
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x152E5C38>}
+Traceback (most recent call last):
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1941, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1832, in handleMessageType
+    self.handleUpdateField(di)
+  File "C:\Panda3D-1.9.0\direct\distributed\ClientRepositoryBase.py", line 438, in handleUpdateField
+    self.__doUpdate(doId, di, ovUpdated)
+  File "C:\Panda3D-1.9.0\direct\distributed\ClientRepositoryBase.py", line 446, in __doUpdate
+    do.dclass.receiveUpdate(do, di)
+  File "toontown\uberdog\ClientServicesManager.py", line 51, in setAvatars
+    self.cr.handleAvatarsList(avList)
+  File "otp\distributed\OTPClientRepository.py", line 1013, in handleAvatarsList
+    self.loginFSM.request('chooseAvatar', [self.avList])
+  File "C:\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 284, in request
+    exitArgList)
+  File "C:\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 231, in __transition
+    self.__enter(aState, enterArgList)
+  File "C:\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 217, in __enter
+    aState.enter(argList)
+  File "C:\Panda3D-1.9.0\direct\fsm\State.py", line 203, in enter
+    apply(self.__enterFunc, argList)
+  File "toontown\distributed\ToontownClientRepository.py", line 220, in enterChooseAvatar
+    self.avChoice.load(self.isPaid())
+  File "toontown\login\AvatarChooser.py", line 89, in load
+    self.quitButton = DirectButton(image=(quitHover, quitHover, quitHover), relief=None, text=TTLocalizer.AvatarChooserQuit, text_font=ToontownGlobals.getSignFont(), text_fg=(0.977, 0.816, 0.133, 1), text_pos=TTLocalizer.ACquitButtonPos, text_scale=TTLocalizer.ACquitButton, image_scale=1, image1_scale=1.15, image2_scale=1.15, scale=1.15, pos=(0, -0.035), command=self.__handleQuit)
+  File "C:\Panda3D-1.9.0\direct\gui\DirectButton.py", line 49, in __init__
+    DirectFrame.__init__(self, parent)
+  File "C:\Panda3D-1.9.0\direct\gui\DirectFrame.py", line 45, in __init__
+    DirectGuiWidget.__init__(self, parent)
+  File "C:\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 751, in __init__
+    self.setPos(self['pos'])
+TypeError: NodePath.set_pos() argument 1 must be LVecBase3f, not tuple
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "C:\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "C:\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 613, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 620, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1941, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1832, in handleMessageType
+    self.handleUpdateField(di)
+  File "C:\Panda3D-1.9.0\direct\distributed\ClientRepositoryBase.py", line 438, in handleUpdateField
+    self.__doUpdate(doId, di, ovUpdated)
+  File "C:\Panda3D-1.9.0\direct\distributed\ClientRepositoryBase.py", line 446, in __doUpdate
+    do.dclass.receiveUpdate(do, di)
+  File "toontown\uberdog\ClientServicesManager.py", line 51, in setAvatars
+    self.cr.handleAvatarsList(avList)
+  File "otp\distributed\OTPClientRepository.py", line 1013, in handleAvatarsList
+    self.loginFSM.request('chooseAvatar', [self.avList])
+  File "C:\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 284, in request
+    exitArgList)
+  File "C:\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 231, in __transition
+    self.__enter(aState, enterArgList)
+  File "C:\Panda3D-1.9.0\direct\fsm\ClassicFSM.py", line 217, in __enter
+    aState.enter(argList)
+  File "C:\Panda3D-1.9.0\direct\fsm\State.py", line 203, in enter
+    apply(self.__enterFunc, argList)
+  File "toontown\distributed\ToontownClientRepository.py", line 220, in enterChooseAvatar
+    self.avChoice.load(self.isPaid())
+  File "toontown\login\AvatarChooser.py", line 89, in load
+    self.quitButton = DirectButton(image=(quitHover, quitHover, quitHover), relief=None, text=TTLocalizer.AvatarChooserQuit, text_font=ToontownGlobals.getSignFont(), text_fg=(0.977, 0.816, 0.133, 1), text_pos=TTLocalizer.ACquitButtonPos, text_scale=TTLocalizer.ACquitButton, image_scale=1, image1_scale=1.15, image2_scale=1.15, scale=1.15, pos=(0, -0.035), command=self.__handleQuit)
+  File "C:\Panda3D-1.9.0\direct\gui\DirectButton.py", line 49, in __init__
+    DirectFrame.__init__(self, parent)
+  File "C:\Panda3D-1.9.0\direct\gui\DirectFrame.py", line 45, in __init__
+    DirectGuiWidget.__init__(self, parent)
+  File "C:\Panda3D-1.9.0\direct\gui\DirectGuiBase.py", line 751, in __init__
+    self.setPos(self['pos'])
+TypeError: NodePath.set_pos() argument 1 must be LVecBase3f, not tuple

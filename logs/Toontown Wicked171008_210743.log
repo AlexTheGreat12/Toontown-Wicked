@@ -1,0 +1,21 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Loaded resources.
+Preloading avatars...
+Traceback (most recent call last):
+  File "C:\Panda3D-1.9.0\python\lib\runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "C:\Panda3D-1.9.0\python\lib\runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "C:\Users\Keithy\Desktop\TTW Localhost\TTW\Toontown Wicked\Toontown Wicked\TTW\toontown\toonbase\ToontownStart.py", line 161, in <module>
+    from toontown.distributed import ToontownClientRepository
+  File "toontown\distributed\ToontownClientRepository.py", line 38, in <module>
+    from toontown.login import DateObject
+  File "toontown\login\DateObject.py", line 3, in <module>
+    class TTDateObject(DateObject.DateObject):
+TypeError: Error when calling the metaclass bases
+    module.__init__() takes at most 2 arguments (3 given)

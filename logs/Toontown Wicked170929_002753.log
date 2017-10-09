@@ -1,0 +1,87 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Loaded resources.
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x157623C8>}
+__handleAvatarChooserDone: 100000001, 'Weaselbumble', ('lll', 'ss', 'm', 'm', 17, 0, 17, 17, 17, 8, 0, 8, 1, 18), 0
+0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_5.5/dna/storage_estate.pdna
+Reading DNA file... phase_5.5/dna/estate_1.pdna
+phoneGuiDone
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+frame rate: 99.2 fps|0.003d|3 avs||315|316||0x10de|0x1080|374.7MB|343.8MB|16351.1MB|531|nt.2.6.2|3.401,3.401|4,8 cpus|OpenGL
+frame rate: 102.3 fps|0.001d|3 avs||615|616||0x10de|0x1080|369.8MB|344.0MB|16351.1MB|531|nt.2.6.2|3.401,3.401|4,8 cpus|OpenGL
+:09-29-2017 00:38:47: setTalk: 100000001, 'Weaselbumble', 'jjfjkfkfkfkf'
+:09-29-2017 00:42:49: setTalk: 100000005, 'Oreo', 'hgfhfhfghfghfg '
+frame rate: 89.4 fps|0.003d|4 avs||915|916||0x10de|0x1080|373.5MB|347.6MB|16351.1MB|534|nt.2.6.2|3.401,3.401|4,8 cpus|OpenGL
+:09-29-2017 00:43:15: setTalk: 100000001, 'Weaselbumble', 'FUCK'
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_5.5/dna/storage_estate.pdna
+Reading DNA file... phase_5.5/dna/estate_1.pdna
+frame rate: 146.6 fps|0.030d|0 avs||1215|1216||0x10de|0x1080|385.2MB|359.0MB|16351.1MB|570|nt.2.6.2|3.401,3.401|4,8 cpus|OpenGL
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+frame rate: 84.8 fps|0.001d|3 avs||1515|1516||0x10de|0x1080|390.2MB|364.6MB|16351.1MB|603|nt.2.6.2|3.401,3.401|4,8 cpus|OpenGL
+frame rate: 87.9 fps|0.001d|3 avs||1815|1816||0x10de|0x1080|389.9MB|364.6MB|16351.1MB|603|nt.2.6.2|3.401,3.401|4,8 cpus|OpenGL
+frame rate: 87.4 fps|0.001d|3 avs||2115|2116||0x10de|0x1080|389.9MB|364.6MB|16351.1MB|603|nt.2.6.2|3.401,3.401|4,8 cpus|OpenGL
+__handleAvatarChooserDone: 100000001, 'Weaselbumble', ('lll', 'ss', 'm', 'm', 17, 0, 17, 17, 17, 8, 0, 8, 1, 18), 0
+0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+:09-29-2017 10:04:24: setTalk: 100000001, 'Weaselbumble', 'HELLO'
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_5.5/dna/storage_estate.pdna
+Reading DNA file... phase_5.5/dna/estate_1.pdna

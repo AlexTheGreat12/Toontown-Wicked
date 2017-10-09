@@ -1,0 +1,71 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Loaded resources.
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x15748508>}
+MakeAToon: No exitGenderTrack
+MakeAToon: No hostTrack
+Exception occurred while processing Func-goToNextShop-11 of Sequence-4:
+Sequence-4:
+  0.000 Sequence-4 {
+  0.000   Wait dur 1
+  1.000   *Func-charSez-6
+  1.000   *Func-clearChat-7
+  1.000   Sequence-5 {
+  1.000     *Func-loop-8
+  1.000     LerpHprInterval-3: hpr from 160 0 0 to 270 0 0 dur 0.3
+  1.300     *Func-clearChat-9
+  1.300     LerpPosInterval-4: pos from 4.2 -1.9 0 to 13.7 -4.5 0 dur 1
+  2.300     *Func-loop-10
+  2.300     *Func-goToNextShop-11
+  2.300   }
+  2.300   *Func-clearChat-12
+  2.300   *Func-clearChat-13
+  2.300 }
+
+Traceback (most recent call last):
+  File "C:\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "C:\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "C:\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "C:\Panda3D-1.9.0\direct\interval\Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "C:\Panda3D-1.9.0\direct\interval\FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown\makeatoon\MakeAToon.py", line 359, in goToNextShop
+    self.fsm.request('BodyShop')
+AttributeError: MakeAToon instance has no attribute 'fsm'
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 236, in run
+    taskMgr.run()
+  File "C:\Panda3D-1.9.0\direct\task\Task.py", line 502, in run
+    self.step()
+  File "C:\Panda3D-1.9.0\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.9.0\direct\showbase\ShowBase.py", line 1801, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "C:\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 96, in step
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.9.0\direct\interval\IntervalManager.py", line 119, in __doPythonCallbacks
+    ival.privPostEvent()
+  File "C:\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 518, in privPostEvent
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.9.0\direct\interval\MetaInterval.py", line 494, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "C:\Panda3D-1.9.0\direct\interval\Interval.py", line 207, in privDoEvent
+    self.privInstant()
+  File "C:\Panda3D-1.9.0\direct\interval\FunctionInterval.py", line 88, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown\makeatoon\MakeAToon.py", line 359, in goToNextShop
+    self.fsm.request('BodyShop')
+AttributeError: MakeAToon instance has no attribute 'fsm'

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Panda3D-1.9.0\python\lib\runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "C:\Panda3D-1.9.0\python\lib\runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "C:\Users\keith\Desktop\Toontown Wicked\TTW\toontown\toonbase\ToontownStart.py", line 101, in <module>
+    import ToontownGlobals
+  File "toontown\toonbase\ToontownGlobals.py", line 584
+    'nxx': 32
+        ^
+SyntaxError: invalid syntax

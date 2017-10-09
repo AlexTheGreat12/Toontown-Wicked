@@ -1,0 +1,26 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Traceback (most recent call last):
+  File "C:\Panda3D-1.9.0\python\lib\runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "C:\Panda3D-1.9.0\python\lib\runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "C:\Users\keith\Desktop\Toontown Wicked\TTW\toontown\toonbase\ToontownStart.py", line 161, in <module>
+    from toontown.distributed import ToontownClientRepository
+  File "toontown\distributed\ToontownClientRepository.py", line 20, in <module>
+    from otp.distributed import OTPClientRepository
+  File "otp\distributed\OTPClientRepository.py", line 30, in <module>
+    from otp.distributed import DCClassImports
+  File "otp\distributed\DCClassImports.py", line 8, in <module>
+    from toontown.cogdominium import DistributedCogdoInterior, DistributedCogdoBattleBldg, DistributedCogdoElevatorExt, DistributedCogdoElevatorInt, DistributedCogdoBarrel, DistCogdoGame, DistCogdoLevelGame, DistCogdoBoardroomGame, DistCogdoCraneGame, DistCogdoMazeGame, DistCogdoFlyingGame, DistCogdoCrane, DistCogdoCraneMoneyBag, DistCogdoCraneCog
+  File "toontown\cogdominium\DistributedCogdoInterior.py", line 11, in <module>
+    from CogdoElevatorMovie import CogdoElevatorMovie
+  File "toontown\cogdominium\CogdoElevatorMovie.py", line 12, in <module>
+    from toontown.toon import Toon, ToonHead, ToonDNA
+  File "toontown\toon\Toon.py", line 704
+    self.setBlend(frameBlend=True)
+    ^
+IndentationError: unexpected indent

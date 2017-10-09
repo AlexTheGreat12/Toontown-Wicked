@@ -1,0 +1,11 @@
+id: 100000004
+class: Account
+fields:
+  ACCOUNT_AV_SET: "[0, 0, 0, 100000005, 0, 0]"
+  ESTATE_ID: 100000006
+  ACCOUNT_AV_SET_DEL: "[]"
+  CREATED: "\"Fri Sep 29 00:34:09 2017\""
+  LAST_LOGIN: "\"Fri Sep 29 00:42:10 2017\""
+  ACCOUNT_ID: "\"rpid\""
+  ACCESS_LEVEL: 700
+  MONEY: 0

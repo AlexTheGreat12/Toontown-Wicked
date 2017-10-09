@@ -1,0 +1,20 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Loaded resources.
+Preloading avatars...
+Traceback (most recent call last):
+  File "C:\Panda3D-1.9.0\python\lib\runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "C:\Panda3D-1.9.0\python\lib\runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "C:\Users\keith\Desktop\rttim-v69.5\game\toontown\toonbase\ToontownStart.py", line 162, in <module>
+    cr = ToontownClientRepository.ToontownClientRepository(serverVersion, launcher)
+  File "toontown\distributed\ToontownClientRepository.py", line 100, in __init__
+    self.ttiFriendsManager = self.generateGlobalObject(OtpDoGlobals.OTP_DO_ID_TTI_FRIENDS_MANAGER, 'TTIFriendsManager')
+  File "C:\Panda3D-1.9.0\direct\distributed\ConnectionRepository.py", line 220, in generateGlobalObject
+    classDef = dclass.getClassDef()
+AttributeError: 'NoneType' object has no attribute 'getClassDef'
